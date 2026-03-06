@@ -9,14 +9,13 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 95vh;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .container{
     background-color: #333;
-    padding: 40px 30px 30px;
-    
+    padding: 35px 25px 25px;    
     border-radius: 20px;
     min-width: 300px;
     min-height: 400px;
@@ -119,3 +118,20 @@ body{
     border-top: 1px solid rgba(255, 255, 255, 0.27);
 }
 
+footer {
+    position: fixed;    
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color:#fafafa; 
+    color: #9c9898;           
+    text-align: center;   
+    padding: 12px 0;      
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 -2px 5px #fafafa;
+}
+
+footer strong {
+    color: #9c9898; 
+}
